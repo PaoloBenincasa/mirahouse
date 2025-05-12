@@ -1,0 +1,126 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Cal+Sans&display=swap');
+@import 'animate.css';
+
+* {
+  /* font-family: "Cal Sans", sans-serif; */
+  font-family: "Aleo", serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+:root {
+  --white: #fcfcfc;
+  --grey: #e8e8e8;
+  --black: #333333;
+  --granata: #990100;
+  --red: #b90504;
+}
+
+.txtWhite {
+  color: var(--white);
+  text-shadow: 1px 1px var(--red);
+}
+
+.bgGrey{
+  background-color: var(--grey);
+}
+
+.hero {
+  background: url(./assets/campanile.jpg) no-repeat;
+  background-size: cover;
+  background-position-y: -215px;
+  width: 100%;
+  height: 480px;
+}
+
+.navbar {
+  height: 38px;
+  background-color: transparent;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--black);
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: var(--granata);
+}
+
+.active-link {
+  text-decoration: underline;
+  color: var(--granata);
+}
+
+.logo {
+  color: var(--granata);
+  font-weight: 700;
+  font-size: large;
+}
+
+.link:hover {
+  color: var(--granata);
+}
+
+.map-container {
+  height: 580px;
+  width: 90%;
+}
+
+.underGranata{
+  color: var(--black);
+  text-decoration: underline var(--granata);
+}
+
+.heroStruttura {
+  background: url(./assets/colazione.jpg) no-repeat;
+  background-size: cover;
+  background-position-y: -215px;
+  width: 100%;
+  height: 480px;
+}
+
+.str1{
+  background: url(./assets/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.str2{
+  background: url(./assets/letto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.str3{
+  background: url(./assets/cucina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.btnCta{
+  background-color: transparent;
+  color: var(--white);
+  text-decoration: none;
+  border: 2px solid var(--grey);
+  padding: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  /* border-radius: 5%; */
+  transition: 0.5s;
+}
+
+.btnCta:hover{
+  background-color: var(--granata);
+  color: var(--white);
+}
+
