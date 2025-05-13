@@ -1,9 +1,10 @@
-import React from 'react';
+import theImg from '/assets/the.jpg';
+import fioriImg from '/assets/fiori.jpg';
 
 function ContattiPage() {
     return (
-        <div>
-            <div className='heroContatti mb-5'>
+        <div> 
+            <div className='heroContatti mb-5' style={{backgroundImage: `url(${theImg})` }}>
 
             </div>
             <div className='container'>
@@ -32,7 +33,7 @@ function ContattiPage() {
                         </h5>
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='con0'>
+                        <div className='con0' style={{backgroundImage: `url(${fioriImg})`}}>
 
                         </div>
                     </div>

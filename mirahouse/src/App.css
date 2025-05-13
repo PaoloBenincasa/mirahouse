@@ -9,7 +9,7 @@
   color: var(--black);
 }
 
-body{
+body {
   background-color: var(--white);
 
 }
@@ -22,24 +22,29 @@ body{
   --red: #b90504;
 }
 
-.service{
+.service {
   border: solid 2px var(--granata);
   box-shadow: 3px 3px var(--grey);
 }
 
-.txtWhite {
+.title {
   color: var(--white);
   text-shadow: 1px 1px var(--red);
 }
 
-.bgGrey{
+/* .txtWhite {
+  color: var(--white);
+  text-shadow: 1px 1px var(--red);
+} */
+
+.bgGrey {
   background-color: var(--grey);
 }
 
 .hero {
-  background: url(./assets/campanile.jpg) no-repeat;
   background-size: cover;
-  background-position-y: -215px;
+  background-repeat: no-repeat;
+  background-position-y: -195px;
   width: 100%;
   height: 480px;
 }
@@ -47,13 +52,12 @@ body{
 .navbar {
   height: 38px;
   background-color: var(--white);
-  /* backdrop-filter: blur(10px); */
   position: fixed;
   z-index: 50;
-  box-shadow: 2px 2px var(--grey);
+  box-shadow: 0px 2px var(--grey);
 }
 
-.footer{
+.footer {
   height: 95px;
   background-color: var(--white);
   border-top: 2px solid var(--grey);
@@ -90,21 +94,21 @@ body{
   width: 100%;
 }
 
-.underGranata{
+.underGranata {
   color: var(--black);
   text-decoration: underline var(--granata);
 }
 
 .heroStruttura {
-  background: url(./assets/colazione.jpg) no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position-y: -215px;
   width: 100%;
   height: 480px;
 }
 
-.str1{
-  background: url(./assets/home.jpg);
+.str1 {
+  /* background: url(./assets/home.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -112,8 +116,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str2{
-  background: url(./assets/letto.jpg);
+.str2 {
+  /* background: url(./assets/letto.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -122,8 +126,8 @@ body{
 
 }
 
-.str3{
-  background: url(./assets/cucina.jpg);
+.str3 {
+  /* background: url(./assets/cucina.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -131,8 +135,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str4{
-  background: url(./assets/caffe.jpg);
+.str4 {
+  /* background: url(./assets/caffe.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -140,8 +144,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str5{
-  background: url(./assets/centrostorico.jpg);
+.str5 {
+  /* background: url(./assets/centrostorico.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -149,8 +153,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str6{
-  background: url(./assets/orologio.jpg);
+.str6 {
+  /* background: url(./assets/orologio.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -158,8 +162,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str7{
-  background: url(./assets/scale.jpg);
+.str7 {
+  /* background: url(./assets/scale.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -167,8 +171,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str8{
-  background: url(./assets/tv.jpg);
+.str8 {
+  /* background: url(./assets/tv.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -176,8 +180,8 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str9{
-  background: url(./assets/volta.jpg);
+.str9 {
+  /* background: url(./assets/volta.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -185,7 +189,7 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str10{
+.str10 {
   background: url(./assets/arco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,7 +198,7 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str11{
+.str11 {
   background: url(./assets/finestra.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +207,7 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str12{
+.str12 {
   background: url(./assets/ingresso.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,17 +216,18 @@ body{
   box-shadow: 3px 3px var(--grey);
 }
 
-.str13{
-  background: url(./assets/the.jpg);
+.str13 {
+  /* background: url(./assets/the.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -25px;
   height: 400px;
   width: 100%;
   box-shadow: 3px 3px var(--grey);
 }
 
-.str14{
-  background: url(./assets/fiore.jpg);
+.str14 {
+  /* background: url(./assets/fiore.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -233,15 +238,15 @@ body{
 
 
 .heroDintorni {
-  background: url(./assets/paesaggio.jpg) no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -260px;
   width: 100%;
   height: 480px;
 }
 
-.din0{
-  background: url(./assets/carnevale.jpg);
+.din0 {
+  /* background: url(./assets/carnevale.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -250,8 +255,8 @@ body{
 
 }
 
-.din1{
-  background: url(./assets/polignano.jpg);
+.din1 {
+  /* background: url(./assets/polignano.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -260,8 +265,8 @@ body{
 
 }
 
-.din2{
-  background: url(./assets/alberobello.jpg);
+.din2 {
+  /* background: url(./assets/alberobello.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -270,8 +275,8 @@ body{
 
 }
 
-.din3{
-  background: url(./assets/bari.jpg);
+.din3 {
+  /* background: url(./assets/bari.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -281,15 +286,15 @@ body{
 }
 
 .heroContatti {
-  background: url(./assets/the.jpg) no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -100px;
   width: 100%;
   height: 480px;
 }
 
-.con0{
-  background: url(./assets/fiori.jpg);
+.con0 {
+  /* background: url(./assets/fiori.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -298,7 +303,7 @@ body{
 
 }
 
-.btnCta{
+.btnCta {
   background-color: transparent;
   color: var(--white);
   text-decoration: none;
@@ -310,12 +315,12 @@ body{
   transition: 0.5s;
 }
 
-.btnCta:hover{
+.btnCta:hover {
   background-color: var(--granata);
   color: var(--white);
 }
 
-.btnCtaInv{
+.btnCtaInv {
   background-color: var(--red);
   color: var(--white);
   text-decoration: none;
@@ -327,6 +332,117 @@ body{
   transition: 0.5s;
 }
 
-.btnCtaInv:hover{
+.btnCtaInv:hover {
   background-color: var(--granata);
+}
+
+.serviceRow1 {
+  margin-top: 2%;
+}
+
+.serviceRow2 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 480px) {
+
+  .str1,
+  .str2,
+  .str3,
+  .str4,
+  .str5,
+  .str6,
+  .str7,
+  .str8,
+  .str9,
+  .str13,
+  .str14 {
+    max-height: 100%;
+    max-width: 100%;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px 0px var(--grey);
+
+  }
+
+  .str10,
+  .str11,
+  .str12 {
+    max-height: 100%;
+    max-width: 100%;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px 0px var(--grey);
+  }
+
+  .din0,
+  .din1,
+  .din2,
+  .din3{
+    max-height: 100%;
+    max-width: 100%;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px 0px var(--grey);
+  }
+
+  .con0{
+    max-height: 100%;
+    max-width: 100%;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px 0px var(--grey);
+  }
+
+  .hero {
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position-y: 12px;
+    background-position-x: -250px;
+    width: 100%;
+    height: 480px;
+  }
+
+  .heroStruttura {
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position-y: 12px;
+    background-position-x: -250px;
+    width: 100%;
+    height: 480px;
+  }
+
+  .heroDintorni {
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position-y: 12px;
+    background-position-x: -250px;
+    width: 100%;
+    height: 480px;
+  }
+
+   .heroContatti {
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position-y: 12px;
+    background-position-x: -250px;
+    width: 100%;
+    height: 480px;
+  }
+
+  .navbar {
+    height: 65px;
+  }
+
+  .serviceRow2 {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+
+  .service {
+    border: solid 0px var(--granata);
+    box-shadow: 0px 0px var(--grey);
+  }
+
 }

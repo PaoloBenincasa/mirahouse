@@ -2,6 +2,18 @@ import React from 'react';
 import 'animate.css';
 import { NavLink } from 'react-router';
 import { useInView } from 'react-intersection-observer';
+import homeImg from '/assets/home.jpg';
+import colazioneImg from '/assets/colazione.jpg';
+import lettoImg from '/assets/letto.jpg';
+import cucinaImg from '/assets/cucina.jpg';
+import caffeImg from '/assets/caffe.jpg';
+import centrostoricoImg from '/assets/centrostorico.jpg';
+import orologioImg from '/assets/orologio.jpg';
+import scaleImg from '/assets/scale.jpg';
+import tvImg from '/assets/tv.jpg';
+import voltaImg from '/assets/volta.jpg';
+import theImg from '/assets/the.jpg';
+import fioreImg from '/assets/fiore.jpg';
 
 
 function StrutturaPage() {
@@ -30,7 +42,7 @@ function StrutturaPage() {
 
     return (
         <div>
-            <div className='heroStruttura mb-5'>
+            <div className='heroStruttura mb-5' style={{ backgroundImage: `url(${colazioneImg})` }}>
 
             </div>
             <div className='container'>
@@ -42,8 +54,8 @@ function StrutturaPage() {
                 <div className='row mb-5 h-100 align-items-center' ref={ref1}>
                     <div
                         className='col-md-6 col-12'>
-                        <div className='str1'>
-
+                        <div className='str1' style={{ backgroundImage: `url(${homeImg})`}}>
+                           
                         </div>
 
                     </div>
@@ -73,7 +85,7 @@ function StrutturaPage() {
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='str2'>
+                        <div className='str2' style={{ backgroundImage: `url(${lettoImg})`}}>
 
                         </div>
 
@@ -81,7 +93,7 @@ function StrutturaPage() {
                 </div>
                 <div className='row mb-5 h-100 align-items-center' ref={ref3}>
                     <div className='col-md-6 col-12'>
-                        <div className='str3'>
+                        <div className='str3' style={{ backgroundImage: `url(${cucinaImg})`}}>
 
                         </div>
 
@@ -105,26 +117,26 @@ function StrutturaPage() {
                 <div className='text-center underGranata pb-5 pt-5'><h3>vedi tutte le immagini</h3></div>
                 <div className='row mb-5 h-100 align-items-center'>
                     <div className='col-md-6 col-12'>
-                        <div className='str4'>
+                        <div className='str4'  style={{ backgroundImage: `url(${caffeImg})`}}>
 
                         </div>
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='str5'>
+                        <div className='str5' style={{ backgroundImage: `url(${centrostoricoImg})`}}>
 
                         </div>
                     </div>
                 </div>
                 <div className='row mb-5 h-100 align-items-center'>
                     <div className='col-md-6 col-12'>
-                        <div className='str6'>
+                        <div className='str6' style={{ backgroundImage: `url(${orologioImg})`}}>
 
                         </div>
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='str7'>
+                        <div className='str7' style={{ backgroundImage: `url(${scaleImg})`}}>
 
                         </div>
                     </div>
@@ -149,26 +161,26 @@ function StrutturaPage() {
                 </div>
                 <div className='row mb-5 h-100 align-items-center'>
                     <div className='col-md-6 col-12'>
-                        <div className='str8'>
+                        <div className='str8' style={{ backgroundImage: `url(${tvImg})`}}>
 
                         </div>
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='str9'>
+                        <div className='str9' style={{ backgroundImage: `url(${voltaImg})`}}>
 
                         </div>
                     </div>
                 </div>
                 <div className='row mb-5 h-100 align-items-center'>
                     <div className='col-md-6 col-12'>
-                        <div className='str14'>
+                        <div className='str14' style={{ backgroundImage: `url(${theImg})`}}>
 
                         </div>
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='str13'>
+                        <div className='str13' style={{ backgroundImage: `url(${fioreImg})`}}>
 
                         </div>
                     </div>

@@ -3,6 +3,8 @@ import Map from '../components/map';
 import { NavLink } from 'react-router';
 import 'animate.css';
 import { useInView } from 'react-intersection-observer';
+import campanileImg from '/assets/campanile.jpg';
+
 
 
 function HomePage() {
@@ -15,11 +17,13 @@ function HomePage() {
 
     return (
         <div>
-            <div className='hero d-flex justify-content-center align-items-end pb-0 text-center fs-1'>
+            <div className='hero d-flex justify-content-center align-items-end pb-0 text-center fs-1' style={{ backgroundImage: `url(${campanileImg})` }}>
                 <div className='bg-transparent animate__animated animate__fadeInUp'>
-                    <h1 className='txtWhite bg-transparent pb-0 mb-0 '>
+                    <h1 className='title bg-transparent pb-0 mb-0 '>
                         MiRa House <br />
+                        <div className='fs-4 title'>
                         le bellezze di Puglia a portata di mano.
+                        </div>
                     </h1>
                     <div className='text-center bg-transparent pb-3'>
                         <NavLink
@@ -34,38 +38,38 @@ function HomePage() {
                 </div>
             </div>
             <main className='d-flex align-items-center flex-column' >
-                <h3 className='pt-5 pb-4 underGranata'>i nostri servizi</h3>
+                <h3 className='pt-5 pb-5 underGranata'>i nostri servizi</h3>
                 <div className='container service'>
-                    <div className='row justify-content-around text-center animate__animated animate__fadeInUp mb-3 mt-4'>
-                        <div className='col-3'>
-                            <h5>
+                    <div className='row justify-content-around text-center animate__animated animate__fadeInUp serviceRow1'>
+                        <div className='col-md-3 col-12'>
+                            <h5 className='serviceInfo'>
                                 comfort e stile
                             </h5>
                         </div>
-                        <div className='col-3'>
-                            <h5>
+                        <div className='col-md-3 col-12'>
+                             <h5 className='serviceInfo'>
                                 wi-fi gratuito
                             </h5>
                         </div>
-                        <div className='col-3'>
-                            <h5>
+                        <div className='col-md-3 col-12'>
+                             <h5 className='serviceInfo'>
                                 cucina completa
                             </h5>
                         </div>
                     </div>
-                    <div className='row justify-content-around text-center animate__animated animate__fadeInUp mb-3 mt-3'>
-                        <div className='col-3'>
-                            <h5>
+                    <div className='row justify-content-around text-center animate__animated animate__fadeInUp serviceRow2'>
+                        <div className='col-md-3 col-12'>
+                             <h5 className='serviceInfo'>
                                 posizione centrale
                             </h5>
                         </div>
-                        <div className='col-3'>
-                            <h5>
+                        <div className='col-md-3 col-12'>
+                            <h5 className='serviceInfo'>
                                 servizio attento
                             </h5>
                         </div>
-                        <div className='col-3'>
-                            <h5>
+                        <div className='col-md-3 col-12'>
+                            <h5 className='serviceInfo'>
                                 bagno accessoriato
                             </h5>
                         </div>

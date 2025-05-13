@@ -2,6 +2,12 @@ import React from 'react';
 import 'animate.css';
 import { useInView } from 'react-intersection-observer';
 import { NavLink } from 'react-router';
+import paesaggioImg from '/assets/paesaggio.jpg';
+import carnevaleImg from '/assets/carnevale.jpg';
+import polignanoImg from '/assets/polignano.jpg';
+import alberobelloImg from '/assets/alberobello.jpg';
+import bariImg from '/assets/bari.jpg';
+
 
 function DintorniPage() {
     const [ref0, inView0] = useInView({
@@ -31,7 +37,7 @@ function DintorniPage() {
 
     return (
         <div>
-            <div className='heroDintorni mb-5'>
+            <div className='heroDintorni mb-5' style={{backgroundImage: `url(${paesaggioImg})`}}>
 
             </div>
             <div className='container'>
@@ -48,7 +54,7 @@ function DintorniPage() {
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='din0'>
+                        <div className='din0'  style={{backgroundImage: `url(${carnevaleImg})`}}>
 
                         </div>
 
@@ -56,7 +62,7 @@ function DintorniPage() {
                 </div>
                 <div className='row mb-5 h-100 align-items-center' ref={ref1}>
                     <div className='col-md-6 col-12'>
-                        <div className='din1'>
+                        <div className='din1' style={{backgroundImage: `url(${polignanoImg})`}}>
 
                         </div>
 
@@ -75,7 +81,7 @@ function DintorniPage() {
 
                     </div>
                     <div className='col-md-6 col-12'>
-                        <div className='din2'>
+                        <div className='din2' style={{backgroundImage: `url(${alberobelloImg})`}}>
 
                         </div>
 
@@ -83,7 +89,7 @@ function DintorniPage() {
                 </div>
                 <div className='row mb-5 h-100 align-items-center' ref={ref3}>
                     <div className='col-md-6 col-12'>
-                        <div className='din3'>
+                        <div className='din3' style={{backgroundImage: `url(${bariImg})`}}>
 
                         </div>
 

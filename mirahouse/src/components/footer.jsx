@@ -3,11 +3,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="footer d-flex justify-content-around align-items-center">
-      <div>
-        Il tuo soggiorno nel cuore della Puglia
-        <p>&copy; {new Date().getFullYear()} MiRa House Barsento</p>
-      </div>
+    <footer className="footer d-flex ps-2 align-items-center">
+
       <div>
         Contattaci!
         <a className='nav-link' href="tel:+393514641282">+39 351 464 1282</a>
