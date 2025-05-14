@@ -3,7 +3,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="footer d-flex ps-2 align-items-center">
+    <footer className="footer d-flex ps-2 align-items-center justify-content-center text-center">
 
       <div>
         Contattaci!

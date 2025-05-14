@@ -14,6 +14,11 @@ import tvImg from '/assets/tv.jpg';
 import voltaImg from '/assets/volta.jpg';
 import theImg from '/assets/the.jpg';
 import fioreImg from '/assets/fiore.jpg';
+import arcoImg from '/assets/arco.jpg';
+import ingressoImg from '/assets/ingresso.jpg';
+import finestraImg from '/assets/finestra.jpg';
+
+
 import { useTranslation } from 'react-i18next';
 
 
@@ -132,18 +137,18 @@ function StrutturaPage() {
                 </div>
                 <div className='row mb-5 h-100 align-items-center'>
                     <div className='col-md-4 col-12'>
-                        <div className='str10'>
+                        <div className='str10' style={{ backgroundImage: `url(${arcoImg})` }}>
 
                         </div>
 
                     </div>
                     <div className='col-md-4 col-12'>
-                        <div className='str11'>
+                        <div className='str11' style={{ backgroundImage: `url(${finestraImg})` }}>
 
                         </div>
                     </div>
                     <div className='col-md-4 col-12'>
-                        <div className='str12'>
+                        <div className='str12' style={{ backgroundImage: `url(${ingressoImg})` }}>
 
                         </div>
                     </div>

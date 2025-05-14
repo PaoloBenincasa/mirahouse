@@ -1,11 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Cal+Sans&display=swap');
 @import 'animate.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 * {
-  /* font-family: "Cal Sans", sans-serif; */
   font-family: "Aleo", serif;
-  /* background-color: var(--white); */
   color: var(--black);
 }
 
@@ -31,11 +30,6 @@ body {
   color: var(--white);
   text-shadow: 1px 1px var(--red);
 }
-
-/* .txtWhite {
-  color: var(--white);
-  text-shadow: 1px 1px var(--red);
-} */
 
 .bgGrey {
   background-color: var(--grey);
@@ -108,7 +102,6 @@ body {
 }
 
 .str1 {
-  /* background: url(./assets/home.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -117,7 +110,6 @@ body {
 }
 
 .str2 {
-  /* background: url(./assets/letto.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -127,7 +119,6 @@ body {
 }
 
 .str3 {
-  /* background: url(./assets/cucina.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -136,7 +127,6 @@ body {
 }
 
 .str4 {
-  /* background: url(./assets/caffe.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -145,7 +135,6 @@ body {
 }
 
 .str5 {
-  /* background: url(./assets/centrostorico.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -154,7 +143,6 @@ body {
 }
 
 .str6 {
-  /* background: url(./assets/orologio.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -163,7 +151,6 @@ body {
 }
 
 .str7 {
-  /* background: url(./assets/scale.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -172,7 +159,6 @@ body {
 }
 
 .str8 {
-  /* background: url(./assets/tv.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -181,7 +167,6 @@ body {
 }
 
 .str9 {
-  /* background: url(./assets/volta.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -190,7 +175,6 @@ body {
 }
 
 .str10 {
-  background: url(./assets/arco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -199,7 +183,6 @@ body {
 }
 
 .str11 {
-  background: url(./assets/finestra.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -208,7 +191,6 @@ body {
 }
 
 .str12 {
-  background: url(./assets/ingresso.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -217,7 +199,6 @@ body {
 }
 
 .str13 {
-  /* background: url(./assets/the.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -25px;
@@ -227,7 +208,6 @@ body {
 }
 
 .str14 {
-  /* background: url(./assets/fiore.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -246,7 +226,6 @@ body {
 }
 
 .din0 {
-  /* background: url(./assets/carnevale.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -256,7 +235,6 @@ body {
 }
 
 .din1 {
-  /* background: url(./assets/polignano.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -266,7 +244,6 @@ body {
 }
 
 .din2 {
-  /* background: url(./assets/alberobello.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -276,7 +253,6 @@ body {
 }
 
 .din3 {
-  /* background: url(./assets/bari.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -294,7 +270,6 @@ body {
 }
 
 .con0 {
-  /* background: url(./assets/fiori.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -311,7 +286,6 @@ body {
   padding: 4px;
   padding-left: 14px;
   padding-right: 14px;
-  /* border-radius: 5%; */
   transition: 0.5s;
 }
 
@@ -328,7 +302,6 @@ body {
   padding: 4px;
   padding-left: 14px;
   padding-right: 14px;
-  /* border-radius: 5%; */
   transition: 0.5s;
 }
 
@@ -379,7 +352,7 @@ body {
   .din0,
   .din1,
   .din2,
-  .din3{
+  .din3 {
     max-height: 100%;
     max-width: 100%;
     background-size: contain;
@@ -387,7 +360,7 @@ body {
     box-shadow: 0px 0px var(--grey);
   }
 
-  .con0{
+  .con0 {
     max-height: 100%;
     max-width: 100%;
     background-size: contain;
@@ -396,10 +369,10 @@ body {
   }
 
   .hero {
-    background-size: 200%;
+    background-size: 220%;
     background-repeat: no-repeat;
     background-position-y: 12px;
-    background-position-x: -250px;
+    background-position-x: -290px;
     width: 100%;
     height: 480px;
   }
@@ -422,7 +395,7 @@ body {
     height: 480px;
   }
 
-   .heroContatti {
+  .heroContatti {
     background-size: 200%;
     background-repeat: no-repeat;
     background-position-y: 12px;
@@ -443,6 +416,42 @@ body {
   .service {
     border: solid 0px var(--granata);
     box-shadow: 0px 0px var(--grey);
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 1000px) {
+  .hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+    /* background-position-x: -5px; */
+    width: 100%;
+    height: 480px;
+  }
+
+  .heroStruttura {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+    width: 100%;
+    height: 480px;
+  }
+
+  .heroDintorni {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -15px;
+    width: 100%;
+    height: 480px;
+  }
+
+  .heroContatti {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -35px;
+    width: 100%;
+    height: 480px;
   }
 
 }
